@@ -4,6 +4,8 @@ import { MikroORM } from "@mikro-orm/core";
 import path from "path";
 
 export default {
+  // parser: "@typescript-eslint/parser",
+  // plugins: ["@typescript-eslint"],
   migrations: {
     path: path.join(__dirname, './migrations'),
     pattern: /^[\w-]+\d+\.[tj]s$/,
